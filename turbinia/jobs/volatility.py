@@ -16,7 +16,7 @@
 
 from __future__ import unicode_literals
 
-from turbinia.evidence import VolatilityOutput
+from turbinia.evidence import RawMemory, VolatilityOutput
 from turbinia.jobs import interface
 from turbinia.jobs import manager
 from turbinia.workers.volatility import VolatilityTask
